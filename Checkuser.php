@@ -11,6 +11,7 @@ $Password = $_POST['Password'];
 $Query = "SELECT Email, Password FROM login
 WHERE Email = '$Email'
 AND Password = '$Password'";
+    //adding a comment
 
 $Result = mysqli_query($DB,$Query);
 
